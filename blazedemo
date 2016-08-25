@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://blazedemo.com/" />
+<title>blazedemo</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">blazedemo</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fromPort</td>
+	<td>label=Philadelphia</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=toPort</td>
+	<td>label=London</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//input[@value='Choose This Flight'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=inputName</td>
+	<td>First last</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=address</td>
+	<td>123 maain str</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=city</td>
+	<td>sometown</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=state</td>
+	<td>state</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zipCode</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=cardType</td>
+	<td>label=American Express</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditCardNumber</td>
+	<td>23453221244322</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nameOnCard</td>
+	<td>john smith</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
