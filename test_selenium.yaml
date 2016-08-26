@@ -2,4 +2,4 @@
 execution:
 - executor: selenium
   scenario:
-    script: test_selenium.py
+    script: selenium/test_selenium.py
