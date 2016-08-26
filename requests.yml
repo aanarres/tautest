@@ -1,0 +1,23 @@
+---
+execution:
+  concurrency: 250
+  throughput: 500
+  ramp-up: 5s
+  hold-for: 10s
+  scenario: light
+
+scenarios:
+  light:
+    timeout: 5s
+    retrieve-resources: false
+    store-cache: false
+    store-cookie: false
+    requests:
+      - http://blazedemo.com/
+
+
+reporting:
+
+  - module: passfail # formerly fail-criteria
+    criteria:
+      - avg-rt>10ms for 1s, continue as failed
