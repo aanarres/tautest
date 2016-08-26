@@ -1,0 +1,5 @@
+---
+execution:
+- executor: selenium
+  scenario:
+    script: test_selenium.py
